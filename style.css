@@ -1,0 +1,17 @@
+:root {
+  --font-family-heading: "Anton", sans-selif;
+  --font-family-body: "Noto Sans JP", sans-selif;
+  --white: #fffefc;
+  --black: #020911;
+  --accent-yellow: #f2e52e;
+  --accent-red: #f20574;
+  --background-black: #171525;
+  --background-navy: #030427;
+  --form-background-yellow: #fffab9;
+  --form-placeholder-gray: #ad9783;
+  --form-border-red: #df6da2;
+  --button-hover-red: #f043a5;
+  --course-hover-yellow: #f4e877;
+  --hero-overlay: rgba(57, 24, 111, 0.4);
+  --course-overlay: rgba(32, 8, 19, 0.63);
+}
