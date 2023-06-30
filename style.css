@@ -259,7 +259,6 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 800px;
   height: 150px;
   filter: drop-shadow(4px 4px 0 var(--accent-red));
   transition: 0.3s;
@@ -379,4 +378,56 @@ img {
 .courses-button-rightarrow {
   width: 40px;
   height: 40px;
+}
+
+@media (max-width: 750px) {
+  .courses {
+    padding: 40px 0;
+  }
+
+  .courses-container {
+    margin: 0 20px;
+    max-width: 350px;
+  }
+
+  .courses-title {
+    font-size: 24px;
+  }
+
+  .courses-card {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .courses-card-title {
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+  }
+
+  .courses-card-title-text {
+    font-size: 24px;
+  }
+
+  .courses-card-body {
+    gap: 0;
+  }
+
+  .courses-card-body-text {
+    font-size: 12px;
+  }
+
+  .courses-card-body-detail {
+    font-size: 12px;
+  }
+
+  .courses-button {
+    padding: 10px 20px;
+    height: 40px;
+  }
+
+  .courses-button-text {
+    font-size: 14px;
+  }
 }
