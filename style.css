@@ -194,7 +194,7 @@ img {
 .about-detail-img {
   width: 320px;
   height: 180px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media (max-width: 750px) {
@@ -208,6 +208,7 @@ img {
 
   .about-detail-text {
     width: 100%;
+    max-width: none;
   }
 
   .about-detail-img {
@@ -231,7 +232,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 40px;
+  /* margin: 0 40px; */
   width: 100%;
   max-width: 800px;
   gap: 40px;
@@ -386,7 +387,7 @@ img {
   }
 
   .courses-container {
-    margin: 0 20px;
+    /* margin: 0 20px; */
     max-width: 350px;
   }
 
