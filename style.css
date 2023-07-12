@@ -232,7 +232,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin: 0 40px; */
+  margin: 0 40px;
   width: 100%;
   max-width: 800px;
   gap: 40px;
@@ -252,6 +252,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  width: 100%;
 }
 
 .courses-card {
@@ -318,7 +319,6 @@ img {
   justify-content: center;
   align-items: center;
   flex: 1;
-  max-width: 550px;
   height: 150px;
   padding: 20px;
   gap: 10px;
@@ -387,8 +387,7 @@ img {
   }
 
   .courses-container {
-    /* margin: 0 20px; */
-    max-width: 350px;
+    margin: 0 20px;
   }
 
   .courses-title {
