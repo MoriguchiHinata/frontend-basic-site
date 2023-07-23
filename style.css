@@ -593,3 +593,22 @@ img {
     font-size: 14px;
   }
 }
+
+.footer {
+  background-color: var(--background-black);
+  padding: 60px 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-copyright {
+  font-family: var(--font-family-body);
+  color: var(--white);
+  font-size: 16px;
+}
+
+@media (max-width: 750px) {
+  .footer-copyright {
+    font-size: 12px;
+  }
+}
