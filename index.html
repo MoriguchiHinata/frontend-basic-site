@@ -112,5 +112,85 @@
         </a>
       </div>
     </section>
+    <section class="signup">
+      <div class="signup-container">
+        <p class="signup-title-text">Let's Try!</p>
+        <div class="signup-detail-wrapper">
+          <p class="signup-detail">
+            Grand
+            Playersでは、ご利用登録いただけた方に対し、３レッスン分の無料枠をプレゼントいたします！<br />
+            今すぐレッスンを初めて、”Grand”なプレイヤーを目指しましょう！<br />
+            お申し込みは下記フォームからどうぞ！<br />
+          </p>
+        </div>
+        <form class="signup-form-container" id="signup-form">
+          <div class="signup-form">
+            <div class="signup-form-label-wrapper">
+              <label class="signup-form-label" for="signup-form-name-input"
+                >お名前</label
+              >
+            </div>
+            <input
+              type="text"
+              class="signup-form-input"
+              id="signup-form-name-input"
+              placeholder="エドワード ヴァン 太郎"
+            />
+          </div>
+          <div class="signup-form">
+            <div class="signup-form-label-wrapper">
+              <label class="signup-form-label" for="signup-form-email-input"
+                >メールアドレス</label
+              >
+            </div>
+            <input
+              type="email"
+              class="signup-form-input"
+              id="signup-form-email-input"
+              placeholder="grand.players@example.com"
+            />
+          </div>
+          <div class="signup-form">
+            <div class="signup-form-label-wrapper">
+              <label class="signup-form-label" for="signup-form-howlong-input"
+                >ギター歴（年）</label
+              >
+            </div>
+            <input
+              type="number"
+              class="signup-form-input"
+              id="signup-form-howlong-input"
+              placeholder="3"
+              min="0"
+            />
+          </div>
+          <div class="signup-form">
+            <div class="signup-form-label-wrapper">
+              <label class="signup-form-label" for="signup-form-passion-input"
+                >意気込みをどうぞ！</label
+              >
+            </div>
+            <textarea
+              type="text"
+              class="signup-form-textarea"
+              placeholder="イカすギターソロをかましてモテた～い！"
+            ></textarea>
+          </div>
+        </form>
+        <button class="signup-button" form="signup-form" type="submit">
+          <div class="signup-button-text-wrapper">
+            <p class="signup-button-text">送信する</p>
+          </div>
+          <img
+            src="./img/arrow-right.svg"
+            alt="right arrow"
+            class="signup-button-rightarrow"
+          />
+        </button>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer-copyright">©2023 GrandPlayers</p>
+    </footer>
   </body>
 </html>
